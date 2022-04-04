@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.caja, .contenedor {
+    border: 0.2rem solid gray;
+}
+
+.contenedor {
+    display: grid;
+    width: 120rem;
+    margin: 0 auto;
+    height: 20rem;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.caja {
+    color: white;
+    padding: 0.5rem;
+}
+
+.roja {
+    background-color: red;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.verde {
+    background-color: green;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.azul {
+    background-color: blue;
+    grid-row-start: 2;
+    grid-row-end: 2;
+ 
+}
+
+.papaya {
+    background-color: papayawhip;
+    color: black;
+}
+
+.rosado {
+    background-color: pink;
+    color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.gris {
+    background-color: gray;
+}
