@@ -15,6 +15,7 @@ body {
     text-align: center;
 }
 
+
 .caja, .contenedor {
     border: 0.2rem solid gray;
 }
@@ -49,7 +50,7 @@ body {
 .azul {
     background-color: blue;
     grid-row-start: 2;
-    grid-row-end: 2;
+    grid-row-end: 4;
  
 }
 
